@@ -1,12 +1,7 @@
 ﻿using System;
 
-namespace Screenmedia.Bindings.Touch.AppHance.PreProduction
+namespace AppHance.PreProduction
 {
-	public enum APHSettingsMode {
-		QA,
-		Silent
-	}
-
 	public enum APHSettingsOSBaseSDK {
 		Above7 = 1
 	}
@@ -17,6 +12,11 @@ namespace Screenmedia.Bindings.Touch.AppHance.PreProduction
 		Warning = 4,
 		Info = 2,
 		Verbose = 0
+	}
+
+	public enum APHSettingsMode {
+		QA,
+		Silent
 	}
 }
 

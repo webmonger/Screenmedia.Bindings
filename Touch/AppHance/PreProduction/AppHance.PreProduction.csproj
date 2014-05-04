@@ -3,12 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>12.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{742CE910-AFC4-4215-8C6F-9DFEA7638EAA}</ProjectGuid>
     <ProjectTypeGuids>{F5B4F3BC-B597-4E2B-B552-EF5D8A32436F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Screenmedia.Bindings.Touch.AppHance.PreProduction</RootNamespace>
+    <RootNamespace>AppHance.PreProduction</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>AppHance.PreProduction</AssemblyName>
   </PropertyGroup>
@@ -47,11 +45,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libApphance-Pre-Production.a" />
+    <ObjcBindingNativeLibrary Include="Apphance-Pre-Production.a" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="libApphance-Pre-Production.linkwith.cs">
-      <DependentUpon>libApphance-Pre-Production.a</DependentUpon>
+    <Compile Include="Apphance-Pre-Production.linkwith.cs">
+      <DependentUpon>Apphance-Pre-Production.a</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

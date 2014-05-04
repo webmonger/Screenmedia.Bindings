@@ -3,51 +3,49 @@
 using MonoTouch.Foundation;
 using MonoTouch.ObjCRuntime;
 
-namespace Screenmedia.Bindings.Touch.AppHance.PreProduction {
+namespace AppHance.PreProduction {
 
 	[BaseType (typeof (NSObject))]
 	public partial interface APHSettings {
 
-		[Export ("applicationId", ArgumentSemantic.Retain)]
+		[Static, Export ("applicationId", ArgumentSemantic.Retain)]
 		string ApplicationId { get; set; }
 
-		[Export ("applicationVersionName", ArgumentSemantic.Retain)]
+		[Static, Export ("applicationVersionName", ArgumentSemantic.Retain)]
 		string ApplicationVersionName { get; set; }
 
-		[Export ("applicationVersionCode", ArgumentSemantic.Retain)]
+		[Static, Export ("applicationVersionCode", ArgumentSemantic.Retain)]
 		string ApplicationVersionCode { get; set; }
 
-		[Export ("defaultUser", ArgumentSemantic.Retain)]
+		[Static, Export ("defaultUser", ArgumentSemantic.Retain)]
 		string DefaultUser { get; set; }
 
-		[Export ("reportOnShakeEnabled")]
+		[Static, Export ("reportOnShakeEnabled")]
 		bool ReportOnShakeEnabled { [Bind ("isReportOnShakeEnabled")] get; set; }
 
-		[Export ("withUTest")]
+		[Static, Export ("withUTest")]
 		bool WithUTest { get; set; }
 
-		[Export ("screenShotsFromGallery")]
+		[Static, Export ("screenShotsFromGallery")]
 		bool ScreenShotsFromGallery { get; set; }
 
-		[Export ("machExceptionEnabled")]
+		[Static, Export ("machExceptionEnabled")]
 		bool MachExceptionEnabled { [Bind ("isMathExceptionEnabled")] get; set; }
 
-		[Export ("serverURL", ArgumentSemantic.Retain)]
+		[Static, Export ("serverURL", ArgumentSemantic.Retain)]
 		string ServerURL { get; set; }
 
-		[Export ("apphanceMode")]
+		[Static, Export ("apphanceMode")]
 		APHSettingsMode ApphanceMode { get; set; }
 
-		[Export ("reportOnDoubleSlideEnabled")]
+		[Static, Export ("reportOnDoubleSlideEnabled")]
 		bool ReportOnDoubleSlideEnabled { [Bind ("isReportOnDoubleSlideEnabled")] get; set; }
 	}
-
-
 
 	[BaseType (typeof (NSObject))]
 	public partial interface APHLogger {
 
-		[Static, Export ("defaultSettings")]
+		[Static, Export ("defaultSettings")]//, Verify ("ObjC method massaged into getter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 83)]
 		APHSettings DefaultSettings { get; }
 
 		[Static, Export ("startNewSessionWithApplicationKey:")]
@@ -76,36 +74,36 @@ namespace Screenmedia.Bindings.Touch.AppHance.PreProduction {
 
 		[Static, Export ("sendFeedback:")]
 		void SendFeedback (string feedback);
-	}
+//	}
+//
+//	[Category, BaseType (typeof (APHLogger))]
+//	public partial interface DeprecatedMethods_APHLogger {
 
-	[Category, BaseType (typeof (APHLogger))]
-	public partial interface DeprecatedMethods_APHLogger {
+//		[Static, Export ("startNewSessionWithApplicationKey:apphanceMode:withUtest:")]
+//		void StartNewSessionWithApplicationKey (string applicationID, string apphanceMode, bool withUtest);
+//
+//		[Static, Export ("startNewSessionWithApplicationKey:apphanceMode:")]
+//		void StartNewSessionWithApplicationKey (string applicationID, string apphanceMode);
 
-		[Static, Export ("startNewSessionWithApplicationKey:apphanceMode:withUtest:")]
-		void StartNewSessionWithApplicationKey (string applicationID, string apphanceMode, bool withUtest);
+//		[Static, Export ("reportOnShakeEnabled")]//, Verify ("ObjC method massaged into setter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 170)]
+//		bool ReportOnShakeEnabled { set; }
 
-		[Static, Export ("startNewSessionWithApplicationKey:apphanceMode:")]
-		void StartNewSessionWithApplicationKey (string applicationID, string apphanceMode);
+//		[Static, Export ("reportOnDoubleSlideEnabled")]//, Verify ("ObjC method massaged into setter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 178)]
+//		bool ReportOnDoubleSlideEnabled { set; }
 
-		[Static, Export ("reportOnShakeEnabled")]
-		bool ReportOnShakeEnabled { set; }
+//		[Static, Export ("versionName")]//, Verify ("ObjC method massaged into setter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 186)]
+//		string VersionName { set; }
+//
+//		[Static, Export ("versionNumber")]//, Verify ("ObjC method massaged into setter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 194)]
+//		string VersionNumber { set; }
 
-		[Static, Export ("reportOnDoubleSlideEnabled")]
-		bool ReportOnDoubleSlideEnabled { set; }
-
-		[Static, Export ("versionName")]
-		string VersionName { set; }
-
-		[Static, Export ("versionNumber")]
-		string VersionNumber { set; }
-
-		[Static, Export ("defaultUser")]
-		string DefaultUser { set; }
-	}
-
-	[Category, BaseType (typeof (APHLogger))]
-	public partial interface PrivateAccessors_APHLogger {
-
+//		[Static, Export ("defaultUser")]//, Verify ("ObjC method massaged into setter property", "/Users/jon/Documents/workspace/AppHance/Touch/Apphance-Production.framework/Versions/A/Headers/APHLogger.h", Line = 201)]
+//		string DefaultUser { set; }
+//	}
+//
+//	[Category, BaseType (typeof (APHLogger))]
+//	public partial interface PrivateAccessors_APHLogger {
+//
 		[Static, Export ("logWithLevel:tag:line:fileName:method:stacktrace:format:")]
 		void LogWithLevel (APHLogLevel level, string tag, int line, string fileName, string method, NSObject [] stacktrace, string format);
 	}
