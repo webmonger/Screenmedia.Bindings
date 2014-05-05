@@ -172,3 +172,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Stop commiting of the .a and .jar files
+*.a
+*.jar
