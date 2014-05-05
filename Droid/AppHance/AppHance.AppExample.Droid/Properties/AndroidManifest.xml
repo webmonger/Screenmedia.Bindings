@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.apphance.screenmedia.example" android:versionCode="1" android:versionName="1">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="14" />
+	<application android:label="Apphance" android:icon="@drawable/apphance_icon">
+		<!-- Apphance activities -->
+		<!--    <activity-->
+		<!--      android:name="com.apphance.android.ui.ProblemActivity"-->
+		<!--      android:configChanges="orientation"-->
+		<!--      android:launchMode="singleInstance"-->
+		<!--      android:process="com.utest.apphance.reporteditor">-->
+		<!--    </activity>-->
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+</manifest>

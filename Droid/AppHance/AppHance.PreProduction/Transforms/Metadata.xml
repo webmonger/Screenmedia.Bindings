@@ -1,0 +1,42 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+<!--  <remove-node path="/api/package[@name='com.apphance.android']/class[@name='Apphance']/method[@name='addOnLoginFinishedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.Apphance.OnLoginFinishedListener']]" />-->
+<!--  <remove-node path="/api/package[@name='com.apphance.android']/class[@name='Apphance']/method[@name='removeOnLoginFinishedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.Apphance.OnLoginFinishedListener']]" />-->
+<!--  <remove-node path="/api/package[@name='com.apphance.android']/interface[@name='Apphance.OnLoginFinishedListener']" />-->
+<!--  <remove-node path="/api/package[@name='com.apphance.android']/interface[@name='Apphance.OnProblemReportedListener']" />-->
+
+<!---->
+<!--  <attr path="/api/package[@name='com.apphance.android']" name="managedName">AppHance.PreProduction</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.activity']" name="managedName">AppHance.PreProduction.Activity</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.common']" name="managedName">AppHance.PreProduction.Common</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.device']" name="managedName">AppHance.PreProduction.Device</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.device.conditions']" name="managedName">AppHance.PreProduction.Device.Conditions</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.instrumentations']" name="managedName">AppHance.PreProduction.Instrumentations</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.logic']" name="managedName">AppHance.PreProduction.Logic</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.messages']" name="managedName">AppHance.PreProduction.Messages</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.session']" name="managedName">AppHance.PreProduction.Session</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.ui']" name="managedName">AppHance.PreProduction.Ui</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.ui.overlay']" name="managedName">AppHance.PreProduction.Ui.Overlay</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.ui.resources']" name="managedName">AppHance.PreProduction.Ui.Resources</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.ui.util']" name="managedName">AppHance.PreProduction.Ui.Util</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.util']" name="managedName">AppHance.PreProduction.Util</attr>-->
+<!--  <attr path="/api/package[@name='com.apphance.android.variant']" name="managedName">AppHance.PreProduction.Variant</attr>-->
+
+  <attr path="/api/package[@name='com.apphance.android.util']/class[@name='System']" name="name">APHSystem</attr>
+
+  <attr path="/api/package[@name='com.apphance.android.common']/class[@name='TreeItem']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.apphance.android.logic']/class[@name='IdentifyHandler']/method[@name='removeOnIdentifyFinishedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.logic.IdentifyHandler.OnIdentifyFinishedListener']]" name="return">void</attr>
+  <attr path="/api/package[@name='com.apphance.android.session']/class[@name='LoginHandler']/method[@name='removeOnLoginFinishedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.session.LoginHandler.OnLoginFinishedListener']]" name="return">void</attr>
+  <attr path="/api/package[@name='com.apphance.android.ui.util']/class[@name='ShakeDetector']/method[@name='removeOnDeviceShakenListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.ui.util.ShakeDetector.OnDeviceShakenListener']]" name="return">void</attr>
+  <attr path="/api/package[@name='com.apphance.android.instrumentations']/class[@name='ScreenshotHelper']/method[@name='removeOnActivityChangedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.instrumentations.ScreenshotHelper.OnActivityChangedListener']]" name="return">void</attr>
+  <attr path="/api/package[@name='com.apphance.android']/class[@name='Apphance']/method[@name='removeOnLoginFinishedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.Apphance.OnLoginFinishedListener']]" name="return">void</attr>
+  <attr path="/api/package[@name='com.apphance.android']/class[@name='Apphance']/method[@name='removeOnProblemReportedListener' and count(parameter)=1 and parameter[1][@type='com.apphance.android.Apphance.OnProblemReportedListener']]" name="return">void</attr>
+
+</metadata>

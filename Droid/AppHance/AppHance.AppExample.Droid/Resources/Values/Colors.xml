@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- From: file:/Users/rudy/dev/projects/AH-Android-Lib/apphance-lib/build/utest_qa/variants/utest_qa/res/values/apphance_ui.xml -->
+  <color name="background_color">#dee9f0</color>
+  <color name="background_primary">#40be4c</color>
+  <color name="background_secondary">#ffffff</color>
+  <color name="emphasize_color">#5D7A8C</color>
+  <!-- From: file:/Users/rudy/dev/projects/AH-Android-Lib/apphance-lib/build/utest_qa/variants/utest_qa/res/values/apphance_colors.xml -->
+  <color name="green">#10b000</color>
+  <!-- From: file:/Users/rudy/dev/projects/AH-Android-Lib/apphance-lib/build/utest_qa/variants/utest_qa/res/values/apphance_ui.xml -->
+  <color name="outline_color">#bec9d0</color>
+  <color name="text_primary">#ffffff</color>
+  <color name="text_secondary">#000000</color>
+  <!-- From: file:/Users/rudy/dev/projects/AH-Android-Lib/apphance-lib/build/utest_qa/variants/utest_qa/res/values/apphance_colors.xml -->
+  <color name="transparent">#00000000</color>
+  <color name="white">#FFFFFF</color>
+</resources>
