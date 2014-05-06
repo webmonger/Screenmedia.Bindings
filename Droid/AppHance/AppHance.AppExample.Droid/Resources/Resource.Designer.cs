@@ -228,11 +228,11 @@ namespace AppHance.AppExample.Droid
 			// aapt resource value: 0x7f02002e
 			public const int apphance_users_list_item_background_selector = 2130837550;
 			
-			// aapt resource value: 0x7f02002f
-			public const int highlight = 2130837551;
-			
 			// aapt resource value: 0x7f020030
-			public const int Icon = 2130837552;
+			public const int highlight = 2130837552;
+			
+			// aapt resource value: 0x7f02002f
+			public const int Icon = 2130837551;
 			
 			static Drawable()
 			{
@@ -247,8 +247,119 @@ namespace AppHance.AppExample.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060025
+			public const int MyButton = 2131099685;
+			
+			// aapt resource value: 0x7f060003
+			public const int app_version = 2131099651;
+			
+			// aapt resource value: 0x7f06000b
+			public const int btn_anon_login = 2131099659;
+			
+			// aapt resource value: 0x7f06000a
+			public const int btn_login = 2131099658;
+			
+			// aapt resource value: 0x7f060010
+			public const int btn_next = 2131099664;
+			
+			// aapt resource value: 0x7f060023
+			public const int btn_select_cycle = 2131099683;
+			
+			// aapt resource value: 0x7f060002
+			public const int button1 = 2131099650;
+			
+			// aapt resource value: 0x7f060012
+			public const int content_layout = 2131099666;
+			
+			// aapt resource value: 0x7f060001
+			public const int editText1 = 2131099649;
+			
+			// aapt resource value: 0x7f060007
+			public const int email_edit = 2131099655;
+			
+			// aapt resource value: 0x7f06001c
+			public const int eraser = 2131099676;
+			
+			// aapt resource value: 0x7f06001b
+			public const int go_report = 2131099675;
+			
+			// aapt resource value: 0x7f06000d
+			public const int header = 2131099661;
+			
+			// aapt resource value: 0x7f06000e
+			public const int header_logo = 2131099662;
+			
+			// aapt resource value: 0x7f060011
+			public const int header_text = 2131099665;
+			
+			// aapt resource value: 0x7f06000f
+			public const int header_title = 2131099663;
+			
+			// aapt resource value: 0x7f060014
+			public const int horizontal_scroll_view = 2131099668;
+			
+			// aapt resource value: 0x7f060015
+			public const int hsv_content = 2131099669;
+			
+			// aapt resource value: 0x7f060004
+			public const int layouts_flipper = 2131099652;
+			
+			// aapt resource value: 0x7f060009
+			public const int login_buttons = 2131099657;
+			
+			// aapt resource value: 0x7f06001a
+			public const int logo = 2131099674;
+			
+			// aapt resource value: 0x7f060006
+			public const int manual_login_layout = 2131099654;
+			
+			// aapt resource value: 0x7f060020
+			public const int message_edit = 2131099680;
+			
+			// aapt resource value: 0x7f060018
+			public const int next = 2131099672;
+			
+			// aapt resource value: 0x7f060019
+			public const int overlay = 2131099673;
+			
+			// aapt resource value: 0x7f060017
+			public const int overlay_img = 2131099671;
+			
+			// aapt resource value: 0x7f060008
+			public const int password_edit = 2131099656;
+			
+			// aapt resource value: 0x7f06001d
+			public const int pencil = 2131099677;
+			
+			// aapt resource value: 0x7f060021
+			public const int problem_includes_screen = 2131099681;
+			
 			// aapt resource value: 0x7f060000
-			public const int MyButton = 2131099648;
+			public const int quick_login_layout = 2131099648;
+			
+			// aapt resource value: 0x7f06000c
+			public const int root = 2131099660;
+			
+			// aapt resource value: 0x7f060016
+			public const int screenshot_img = 2131099670;
+			
+			// aapt resource value: 0x7f060013
+			public const int screenshots_layout = 2131099667;
+			
+			// aapt resource value: 0x7f06001f
+			public const int scrolled_content = 2131099679;
+			
+			// aapt resource value: 0x7f06001e
+			public const int spray = 2131099678;
+			
+			// aapt resource value: 0x7f060024
+			public const int user_avatar = 2131099684;
+			
+			// aapt resource value: 0x7f060022
+			public const int user_name = 2131099682;
+			
+			// aapt resource value: 0x7f060005
+			public const int users_list = 2131099653;
 			
 			static Id()
 			{
@@ -264,7 +375,37 @@ namespace AppHance.AppExample.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int apphance_cycleslistheader = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int apphance_feedback = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int apphance_login = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int apphance_master = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int apphance_overlay = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int apphance_problem = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int apphance_testcycle = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int apphance_testcycles = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int apphance_user = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int apphance_userlistheader = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int Main = 2130903050;
 			
 			static Layout()
 			{
@@ -279,302 +420,305 @@ namespace AppHance.AppExample.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int ApplicationName = 2131034113;
-			
-			// aapt resource value: 0x7f050000
-			public const int Hello = 2131034112;
-			
-			// aapt resource value: 0x7f050002
-			public const int clear_overlay = 2131034114;
-			
-			// aapt resource value: 0x7f050003
-			public const int edit_overlay = 2131034115;
-			
-			// aapt resource value: 0x7f050004
-			public const int login_anon_login_button = 2131034116;
-			
-			// aapt resource value: 0x7f050005
-			public const int login_appIdText = 2131034117;
-			
-			// aapt resource value: 0x7f050006
-			public const int login_app_version = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int login_application_inactive = 2131034119;
-			
-			// aapt resource value: 0x7f050008
-			public const int login_emailText = 2131034120;
-			
-			// aapt resource value: 0x7f050009
-			public const int login_failed = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int login_identifyProgress = 2131034122;
-			
-			// aapt resource value: 0x7f05000b
-			public const int login_loginButton = 2131034123;
-			
-			// aapt resource value: 0x7f05000c
-			public const int login_login_button = 2131034124;
-			
-			// aapt resource value: 0x7f05000d
-			public const int login_passwordText = 2131034125;
-			
-			// aapt resource value: 0x7f05000e
-			public const int login_progress = 2131034126;
-			
-			// aapt resource value: 0x7f05000f
-			public const int login_quickLoginHint = 2131034127;
-			
-			// aapt resource value: 0x7f050010
-			public const int login_quickLoginHint2 = 2131034128;
-			
-			// aapt resource value: 0x7f050011
-			public const int login_skipButton = 2131034129;
-			
-			// aapt resource value: 0x7f050012
-			public const int login_title = 2131034130;
-			
-			// aapt resource value: 0x7f050013
-			public const int login_too_many_devices = 2131034131;
-			
-			// aapt resource value: 0x7f050014
-			public const int login_versionNameText = 2131034132;
-			
-			// aapt resource value: 0x7f050015
-			public const int login_versionNumberText = 2131034133;
-			
-			// aapt resource value: 0x7f050016
-			public const int login_welcomeText = 2131034134;
-			
-			// aapt resource value: 0x7f050017
-			public const int login_wrong_application = 2131034135;
-			
-			// aapt resource value: 0x7f050018
-			public const int login_wrong_credentials = 2131034136;
-			
-			// aapt resource value: 0x7f050019
-			public const int notification_text_login = 2131034137;
-			
-			// aapt resource value: 0x7f05001a
-			public const int notification_text_prelogin = 2131034138;
-			
-			// aapt resource value: 0x7f05001b
-			public const int notification_text_report = 2131034139;
-			
-			// aapt resource value: 0x7f05001c
-			public const int notification_ticker = 2131034140;
-			
-			// aapt resource value: 0x7f05001d
-			public const int notification_title = 2131034141;
-			
-			// aapt resource value: 0x7f05001e
-			public const int notification_update_text = 2131034142;
-			
-			// aapt resource value: 0x7f05001f
-			public const int notification_update_ticker = 2131034143;
-			
-			// aapt resource value: 0x7f050020
-			public const int notification_update_title = 2131034144;
-			
-			// aapt resource value: 0x7f050021
-			public const int problem_back = 2131034145;
-			
-			// aapt resource value: 0x7f050022
-			public const int problem_cancel = 2131034146;
-			
-			// aapt resource value: 0x7f050023
-			public const int problem_hint = 2131034147;
-			
-			// aapt resource value: 0x7f050024
-			public const int problem_includes = 2131034148;
-			
-			// aapt resource value: 0x7f050025
-			public const int problem_includes_comment = 2131034149;
-			
-			// aapt resource value: 0x7f050026
-			public const int problem_includes_logs = 2131034150;
-			
-			// aapt resource value: 0x7f050027
-			public const int problem_includes_screen = 2131034151;
-			
-			// aapt resource value: 0x7f050028
-			public const int problem_includes_screenshots_logs_comments = 2131034152;
-			
-			// aapt resource value: 0x7f050029
-			public const int problem_instruction = 2131034153;
-			
-			// aapt resource value: 0x7f05002a
-			public const int problem_postscriptum = 2131034154;
-			
-			// aapt resource value: 0x7f05002b
-			public const int problem_proceed = 2131034155;
-			
-			// aapt resource value: 0x7f05002c
-			public const int problem_prompt = 2131034156;
-			
-			// aapt resource value: 0x7f05002d
-			public const int problem_report = 2131034157;
-			
-			// aapt resource value: 0x7f05002e
-			public const int problem_select_app = 2131034158;
-			
-			// aapt resource value: 0x7f05002f
-			public const int problem_title = 2131034159;
-			
-			// aapt resource value: 0x7f050030
-			public const int problem_toast_no_message = 2131034160;
-			
-			// aapt resource value: 0x7f050031
-			public const int settings_credentials = 2131034161;
-			
-			// aapt resource value: 0x7f050032
-			public const int settings_credentials_email = 2131034162;
-			
-			// aapt resource value: 0x7f050033
-			public const int settings_credentials_email_summary = 2131034163;
-			
-			// aapt resource value: 0x7f050034
-			public const int settings_credentials_password = 2131034164;
-			
-			// aapt resource value: 0x7f050035
-			public const int settings_credentials_password_summary = 2131034165;
-			
-			// aapt resource value: 0x7f050036
-			public const int settings_enabled = 2131034166;
-			
-			// aapt resource value: 0x7f050037
-			public const int settings_enabled_summary = 2131034167;
-			
-			// aapt resource value: 0x7f050038
-			public const int settings_menu_start_service = 2131034168;
-			
-			// aapt resource value: 0x7f050039
-			public const int test_api_key = 2131034169;
-			
-			// aapt resource value: 0x7f05003a
-			public const int test_cycles_hint = 2131034170;
-			
-			// aapt resource value: 0x7f05003b
-			public const int test_cycles_manual = 2131034171;
-			
-			// aapt resource value: 0x7f05003c
-			public const int test_cycles_title = 2131034172;
-			
-			// aapt resource value: 0x7f05003d
-			public const int test_ui_group = 2131034173;
-			
-			// aapt resource value: 0x7f05003e
-			public const int test_ui_level = 2131034174;
-			
-			// aapt resource value: 0x7f05003f
-			public const int test_ui_message_hint = 2131034175;
-			
-			// aapt resource value: 0x7f050040
-			public const int test_ui_report = 2131034176;
-			
-			// aapt resource value: 0x7f050041
-			public const int test_ui_type = 2131034177;
-			
-			// aapt resource value: 0x7f050042
-			public const int toast_application_blocked = 2131034178;
-			
-			// aapt resource value: 0x7f050043
-			public const int toast_application_inactive = 2131034179;
-			
-			// aapt resource value: 0x7f050044
-			public const int toast_email_changed = 2131034180;
-			
-			// aapt resource value: 0x7f050045
-			public const int toast_enabled_off = 2131034181;
-			
-			// aapt resource value: 0x7f050046
-			public const int toast_enabled_on = 2131034182;
-			
-			// aapt resource value: 0x7f050047
-			public const int toast_first_run = 2131034183;
-			
-			// aapt resource value: 0x7f050048
-			public const int toast_impending_login = 2131034184;
-			
-			// aapt resource value: 0x7f050049
-			public const int toast_mandatory_update = 2131034185;
-			
-			// aapt resource value: 0x7f05004a
-			public const int toast_no_test_cycle_found = 2131034186;
-			
-			// aapt resource value: 0x7f05004b
-			public const int toast_recommended_update = 2131034187;
-			
-			// aapt resource value: 0x7f05004c
-			public const int toast_test_cycle_auto_selected = 2131034188;
-			
-			// aapt resource value: 0x7f05004d
-			public const int toast_too_many_devices = 2131034189;
-			
-			// aapt resource value: 0x7f05004e
-			public const int toast_unknown_mandatory_update = 2131034190;
-			
-			// aapt resource value: 0x7f05004f
-			public const int toast_unknown_recommended_update = 2131034191;
-			
-			// aapt resource value: 0x7f050050
-			public const int toast_wrong_application = 2131034192;
-			
-			// aapt resource value: 0x7f050051
-			public const int toast_wrong_credentials = 2131034193;
-			
-			// aapt resource value: 0x7f050052
-			public const int ui_back = 2131034194;
-			
-			// aapt resource value: 0x7f050053
-			public const int ui_cancel = 2131034195;
-			
-			// aapt resource value: 0x7f050054
-			public const int ui_exit = 2131034196;
-			
-			// aapt resource value: 0x7f050055
-			public const int ui_next = 2131034197;
-			
-			// aapt resource value: 0x7f050056
-			public const int ui_skip = 2131034198;
-			
-			// aapt resource value: 0x7f050057
-			public const int update_changelog = 2131034199;
-			
-			// aapt resource value: 0x7f050058
-			public const int update_close_btn = 2131034200;
-			
-			// aapt resource value: 0x7f050059
-			public const int update_intro = 2131034201;
-			
-			// aapt resource value: 0x7f05005a
-			public const int update_link = 2131034202;
-			
-			// aapt resource value: 0x7f05005b
-			public const int update_perform_btn = 2131034203;
-			
-			// aapt resource value: 0x7f05005c
-			public const int update_required_title = 2131034204;
-			
-			// aapt resource value: 0x7f05005d
-			public const int update_skip_btn = 2131034205;
-			
-			// aapt resource value: 0x7f05005e
-			public const int update_title = 2131034206;
-			
-			// aapt resource value: 0x7f05005f
-			public const int update_version = 2131034207;
-			
-			// aapt resource value: 0x7f050060
-			public const int update_warning_mandatory = 2131034208;
-			
-			// aapt resource value: 0x7f050061
-			public const int update_warning_recommended = 2131034209;
+			// aapt resource value: 0x7f050063
+			public const int ApplicationName = 2131034211;
 			
 			// aapt resource value: 0x7f050062
-			public const int view_flip_interval = 2131034210;
+			public const int Hello = 2131034210;
+			
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int clear_overlay = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int edit_overlay = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int login_anon_login_button = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int login_appIdText = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int login_app_version = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int login_application_inactive = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int login_emailText = 2131034119;
+			
+			// aapt resource value: 0x7f050008
+			public const int login_failed = 2131034120;
+			
+			// aapt resource value: 0x7f050009
+			public const int login_identifyProgress = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int login_loginButton = 2131034122;
+			
+			// aapt resource value: 0x7f05000b
+			public const int login_login_button = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int login_passwordText = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int login_progress = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int login_quickLoginHint = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int login_quickLoginHint2 = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int login_skipButton = 2131034128;
+			
+			// aapt resource value: 0x7f050011
+			public const int login_title = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int login_too_many_devices = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int login_versionNameText = 2131034131;
+			
+			// aapt resource value: 0x7f050014
+			public const int login_versionNumberText = 2131034132;
+			
+			// aapt resource value: 0x7f050015
+			public const int login_welcomeText = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int login_wrong_application = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int login_wrong_credentials = 2131034135;
+			
+			// aapt resource value: 0x7f050018
+			public const int notification_text_login = 2131034136;
+			
+			// aapt resource value: 0x7f050019
+			public const int notification_text_prelogin = 2131034137;
+			
+			// aapt resource value: 0x7f05001a
+			public const int notification_text_report = 2131034138;
+			
+			// aapt resource value: 0x7f05001b
+			public const int notification_ticker = 2131034139;
+			
+			// aapt resource value: 0x7f05001c
+			public const int notification_title = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int notification_update_text = 2131034141;
+			
+			// aapt resource value: 0x7f05001e
+			public const int notification_update_ticker = 2131034142;
+			
+			// aapt resource value: 0x7f05001f
+			public const int notification_update_title = 2131034143;
+			
+			// aapt resource value: 0x7f050020
+			public const int problem_back = 2131034144;
+			
+			// aapt resource value: 0x7f050021
+			public const int problem_cancel = 2131034145;
+			
+			// aapt resource value: 0x7f050022
+			public const int problem_hint = 2131034146;
+			
+			// aapt resource value: 0x7f050023
+			public const int problem_includes = 2131034147;
+			
+			// aapt resource value: 0x7f050024
+			public const int problem_includes_comment = 2131034148;
+			
+			// aapt resource value: 0x7f050025
+			public const int problem_includes_logs = 2131034149;
+			
+			// aapt resource value: 0x7f050026
+			public const int problem_includes_screen = 2131034150;
+			
+			// aapt resource value: 0x7f050027
+			public const int problem_includes_screenshots_logs_comments = 2131034151;
+			
+			// aapt resource value: 0x7f050028
+			public const int problem_instruction = 2131034152;
+			
+			// aapt resource value: 0x7f050029
+			public const int problem_postscriptum = 2131034153;
+			
+			// aapt resource value: 0x7f05002a
+			public const int problem_proceed = 2131034154;
+			
+			// aapt resource value: 0x7f05002b
+			public const int problem_prompt = 2131034155;
+			
+			// aapt resource value: 0x7f05002c
+			public const int problem_report = 2131034156;
+			
+			// aapt resource value: 0x7f05002d
+			public const int problem_select_app = 2131034157;
+			
+			// aapt resource value: 0x7f05002e
+			public const int problem_title = 2131034158;
+			
+			// aapt resource value: 0x7f05002f
+			public const int problem_toast_no_message = 2131034159;
+			
+			// aapt resource value: 0x7f050030
+			public const int settings_credentials = 2131034160;
+			
+			// aapt resource value: 0x7f050031
+			public const int settings_credentials_email = 2131034161;
+			
+			// aapt resource value: 0x7f050032
+			public const int settings_credentials_email_summary = 2131034162;
+			
+			// aapt resource value: 0x7f050033
+			public const int settings_credentials_password = 2131034163;
+			
+			// aapt resource value: 0x7f050034
+			public const int settings_credentials_password_summary = 2131034164;
+			
+			// aapt resource value: 0x7f050035
+			public const int settings_enabled = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int settings_enabled_summary = 2131034166;
+			
+			// aapt resource value: 0x7f050037
+			public const int settings_menu_start_service = 2131034167;
+			
+			// aapt resource value: 0x7f050038
+			public const int test_api_key = 2131034168;
+			
+			// aapt resource value: 0x7f050039
+			public const int test_cycles_hint = 2131034169;
+			
+			// aapt resource value: 0x7f05003a
+			public const int test_cycles_manual = 2131034170;
+			
+			// aapt resource value: 0x7f05003b
+			public const int test_cycles_title = 2131034171;
+			
+			// aapt resource value: 0x7f05003c
+			public const int test_ui_group = 2131034172;
+			
+			// aapt resource value: 0x7f05003d
+			public const int test_ui_level = 2131034173;
+			
+			// aapt resource value: 0x7f05003e
+			public const int test_ui_message_hint = 2131034174;
+			
+			// aapt resource value: 0x7f05003f
+			public const int test_ui_report = 2131034175;
+			
+			// aapt resource value: 0x7f050040
+			public const int test_ui_type = 2131034176;
+			
+			// aapt resource value: 0x7f050041
+			public const int toast_application_blocked = 2131034177;
+			
+			// aapt resource value: 0x7f050042
+			public const int toast_application_inactive = 2131034178;
+			
+			// aapt resource value: 0x7f050043
+			public const int toast_email_changed = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int toast_enabled_off = 2131034180;
+			
+			// aapt resource value: 0x7f050045
+			public const int toast_enabled_on = 2131034181;
+			
+			// aapt resource value: 0x7f050046
+			public const int toast_first_run = 2131034182;
+			
+			// aapt resource value: 0x7f050047
+			public const int toast_impending_login = 2131034183;
+			
+			// aapt resource value: 0x7f050048
+			public const int toast_mandatory_update = 2131034184;
+			
+			// aapt resource value: 0x7f050049
+			public const int toast_no_test_cycle_found = 2131034185;
+			
+			// aapt resource value: 0x7f05004a
+			public const int toast_recommended_update = 2131034186;
+			
+			// aapt resource value: 0x7f05004b
+			public const int toast_test_cycle_auto_selected = 2131034187;
+			
+			// aapt resource value: 0x7f05004c
+			public const int toast_too_many_devices = 2131034188;
+			
+			// aapt resource value: 0x7f05004d
+			public const int toast_unknown_mandatory_update = 2131034189;
+			
+			// aapt resource value: 0x7f05004e
+			public const int toast_unknown_recommended_update = 2131034190;
+			
+			// aapt resource value: 0x7f05004f
+			public const int toast_wrong_application = 2131034191;
+			
+			// aapt resource value: 0x7f050050
+			public const int toast_wrong_credentials = 2131034192;
+			
+			// aapt resource value: 0x7f050051
+			public const int ui_back = 2131034193;
+			
+			// aapt resource value: 0x7f050052
+			public const int ui_cancel = 2131034194;
+			
+			// aapt resource value: 0x7f050053
+			public const int ui_exit = 2131034195;
+			
+			// aapt resource value: 0x7f050054
+			public const int ui_next = 2131034196;
+			
+			// aapt resource value: 0x7f050055
+			public const int ui_skip = 2131034197;
+			
+			// aapt resource value: 0x7f050056
+			public const int update_changelog = 2131034198;
+			
+			// aapt resource value: 0x7f050057
+			public const int update_close_btn = 2131034199;
+			
+			// aapt resource value: 0x7f050058
+			public const int update_intro = 2131034200;
+			
+			// aapt resource value: 0x7f050059
+			public const int update_link = 2131034201;
+			
+			// aapt resource value: 0x7f05005a
+			public const int update_perform_btn = 2131034202;
+			
+			// aapt resource value: 0x7f05005b
+			public const int update_required_title = 2131034203;
+			
+			// aapt resource value: 0x7f05005c
+			public const int update_skip_btn = 2131034204;
+			
+			// aapt resource value: 0x7f05005d
+			public const int update_title = 2131034205;
+			
+			// aapt resource value: 0x7f05005e
+			public const int update_version = 2131034206;
+			
+			// aapt resource value: 0x7f05005f
+			public const int update_warning_mandatory = 2131034207;
+			
+			// aapt resource value: 0x7f050060
+			public const int update_warning_recommended = 2131034208;
+			
+			// aapt resource value: 0x7f050061
+			public const int view_flip_interval = 2131034209;
 			
 			static String()
 			{

@@ -18,7 +18,7 @@ namespace AppHance.AppExample.Droid
     public class Activity1 : Activity
     {
         int count = 1;
-        public static string _appKey = "7f5f8db9be18d548c4bbc66c9b591be7fdd4fb9f";
+		public static string _appKey = "APIKey";
 
 
         protected override void OnCreate(Bundle bundle)
@@ -28,14 +28,14 @@ namespace AppHance.AppExample.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            Configuration configuration = new Configuration.Builder(this.ApplicationContext)
+            Configuration configuration = new Configuration.Builder(this)
 			.WithAPIKey(_appKey) //Provides Apphance APP_KEY
-			.WithMode(Apphance.Mode.Qa) //Selects Apphance mode
-			.WithUTestEnabled(true) //uTest integration switch enabled
-			.WithReportOnShakeEnabled(true) //Enables shake report trigger
+			//.WithMode(Apphance.Mode.Qa) //Selects Apphance mode
+			//.WithUTestEnabled(true) //uTest integration switch enabled
+			//.WithReportOnShakeEnabled(true) //Enables shake report trigger
 			.Build();
 
-            Apphance.StartNewSession(this.ApplicationContext, configuration);
+            Apphance.StartNewSession(this, configuration);
 
             // Get our button from the layout resource,
             // and attach an event to it
